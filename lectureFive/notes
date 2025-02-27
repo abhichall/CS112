@@ -1,0 +1,18 @@
+Stack - high level LOGIC
+primative data type - int, boolean, etc - basic data supported by the coding language
+abstract data type - a more complex structure
+
+
+Stack API
+    StackOfStrings() - creates 
+    void push(String item) - add a new string to a Stack
+    String pop() - remove and return the String most recenlty added
+    boolean isEmpty() - is the stack Empty?
+    int size() - number of strings on the stack
+
+
+If you wanna add something to index 0, and already have something at index 0
+    have to move everyone down one index - worst case O(n)
+
+
+

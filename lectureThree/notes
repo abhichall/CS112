@@ -1,0 +1,28 @@
+java will allocate the memory needed to keep track of the variable value
+runtime stack - always start at top - think of plate stack
+activation record - where the variable value is initially kept track of 
+'new' for object - when you say new, it will be in the heap
+
+student s1 = new student ();
+student s2 = s1;
+student s3 = new student ();
+when you say new, it will create a new object and therfore have a different object;
+basically 'new' creates a new object with its own unique address
+s1=s3 --> they point to the same address
+
+breakpoint - debugging -  to stop the program execution at some point before movng forward - just click the left of the number on the line; then click debug, will trace variables
+
+
+big O
+tilde notation - discard lower-order terms
+big o notation - also discard leading coefficient
+
+use tilde notation to:
+count core operations
+make predictions about running time - in seconds
+measure memory usage
+
+use big theta notation:
+analyze performance independence of machine, compiler, JVM
+
+

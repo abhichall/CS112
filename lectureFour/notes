@@ -1,0 +1,33 @@
+StdIn.readline() -  reads until a break (space, enter, tab)
+
+Union Find - groupings of objects by criteria
+
+the union find data strcuture supports two options:
+
+union(x,y): 'unions' x and y
+find(x): takes a SINGLE object x, and returns the group that x belongs to
+
+Union Find is useful in graph type problems. 
+connect all the objects that belong to the same group with an 'edge'
+one element in the group is tagged as the 'representative' - this element will represent the entire group it belongs two
+on a root tree diagram, the representative will be the highest parent ** at the top of the root tree
+during union - set the root of one tree to be the child of another
+
+
+how to implement Union Find:
+
+Initialize an array -> Parent[i] = i
+
+Implent find function, this will find the root of the tree that contains x find(Parent[x])
+
+union (x,y)
+Parent(find[y]) = find[x]
+this will find the root of y and the root of x, and then will set the parent of one to be the parent of the other
+
+
+
+In a stack, 
+push means to add
+pop method removes and returns the top elemnts of the stack
+
+initial capacity list for an array is 10

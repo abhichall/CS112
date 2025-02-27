@@ -1,0 +1,14 @@
+Linked List:
+    CAN BE TRAVERSERD IN ONE DIRECTION ONLY
+    a recursive data structure
+    Defintions: a linked list is a null or reference to a node
+    Defintions: a node is a data type that contains a reference to a node
+    Unwind recursions: a linked list is a sequence of nodes
+
+- Java LinkedLists can contain duplicate elements
+- Java LinkedLists maintain insertion order
+- Java LinkedLists is not synchronized
+- manipulation is fast because no shifting needs to occur
+- can be used as a list stack or queue
+
+

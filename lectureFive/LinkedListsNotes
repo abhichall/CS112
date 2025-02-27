@@ -1,0 +1,15 @@
+Linked List:
+    CAN BE TRAVERSERD IN ONE DIRECTION ONLY
+    a recursive data structure
+    Defintions: a linked list is a null or reference to a node
+    Defintions: a node is a data type that contains a reference to a node
+    Unwind recursions: a linked list is a sequence of nodes
+
+
+
+
+
+Typical memory usage for objects in java
+Object Overhead: 16 bytes
+Reference: 8 bytes
+Padding: memory of each object rounded up to use a multiple of 8 bytes
